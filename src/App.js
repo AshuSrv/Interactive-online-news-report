@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Header from "./components/Header";
+import "./App.css";
+import Introduction from "./components/Introduction";
+import { Container, MainArticle } from "./assets/styles";
+import PolicyArchitecture from "./components/PolicyArchitecture";
+// import ImpactAnalysis from "./components/ImpactAnalysis";
+// import IndustryImpact from "./components/IndustryImpact";
+// import FutureScenarios from "./components/FutureScenarios";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container>
+      <Header />
+
+      <MainArticle>
+        <Introduction />
+        {/* Section 2: Policy Architecture with Video */}
+        <PolicyArchitecture />
+        {/* Section 3: Policy Architecture with Video */}
+        {/* <ImpactAnalysis /> */}
+
+        {/* Section 4: Industry Impacts */}
+        {/* <IndustryImpact /> */}
+        {/* Section 5: Future Scenarios */}
+        {/* <FutureScenarios /> */}
+      </MainArticle>
+    </Container>
   );
-}
+};
 
 export default App;
