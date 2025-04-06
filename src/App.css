@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 0;
+}
+
+a {
+  color: #393c44;
+}
+a:hover {
+  color: black;
+  transition: color 0.25s ease-in-out;
+}
+
+.subheading {
+  font-weight: bold;
+}
