@@ -250,3 +250,48 @@ export const Byline = styled.div`
     margin-right: 0.25rem;
   }
 `;
+
+export const SourceGrid = styled.div`
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+  margin: 30px 0;
+`;
+
+export const SourceColumn = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+`;
+
+export const SourceItem = styled.li`
+  display: flex;
+  gap: 15px;
+  margin-bottom: 25px;
+  padding: 15px;
+  background: #f8f9fa;
+  border-radius: 6px;
+  transition: transform 0.2s;
+
+  &:hover {
+    transform: translateX(5px);
+  }
+`;
+
+export const SourceNumber = styled.div`
+  width: 30px;
+  height: 30px;
+  background: #2b2d42;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+`;
+
+export const SourceTitle = styled.div`
+  font-weight: 600;
+  color: #2b2d42;
+  margin-bottom: 5px;
+`;
