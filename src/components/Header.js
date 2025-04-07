@@ -6,8 +6,10 @@ const Header = () => (
     <Nav>
       <Title>Global Trade Monitor</Title>
       <NavLinks>
+        <a href="#introduction">Introduction</a>
         <a href="#analysis">Analysis</a>
-        <a href="#impact">Impact</a>
+        <a href="#market">Impact</a>
+        <a href="#industries">Industries</a>
         <a href="#sources">Sources</a>
       </NavLinks>
     </Nav>
