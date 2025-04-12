@@ -17,7 +17,7 @@ import {
 
 const Introduction = () => {
   return (
-    <div>
+    <div id="introduction">
       {/* Section 1: Introduction with Video */}
       <Section>
         <h1>The 2025 Trump Tariffs: Global Economic Earthquake</h1>
@@ -88,50 +88,48 @@ const Introduction = () => {
           approximately $3.8 trillion in annual imports. This structure combines
           a universal 10% baseline tariff with additional country-specific
           surcharges. Economic analyses suggest that these measures could have
-          the following impacts:
-          <ul>
-            <li>
-              <strong>Reduction in Global GDP Growth:</strong> The{" "}
+          the following impacts
+          <div>
+            <p>
+              The{" "}
               <a
                 target="_blank"
                 rel="noreferrer"
                 href="https://www.ainvest.com/news/imf-chief-economist-warns-of-potential-0-5-global-gdp-loss-by-2026-due-to-tariff-escalations-2410100084b56ddafee8f53f/"
               >
-                International Monetary Fund (IMF)
+                <strong>International Monetary Fund (IMF)</strong>
               </a>{" "}
-              estimates that increased tariffs and trade tensions could reduce
-              global economic growth by 0.5% by 2026.
-            </li>
-            <li>
-              <strong>Increase in U.S. Consumer Prices:</strong>{" "}
+              estimates that escalating tariffs and trade tensions may lead to a
+              0.5% reduction in global economic growth by 2026. Similarly,{" "}
               <a
                 target="_blank"
                 rel="noreferrer"
                 href="https://www.spglobal.com/ratings/en/research/articles/250206-economic-research-how-might-trump-s-tariffs-if-fully-implemented-affect-u-s-growth-inflation-and-rates-13408802"
               >
-                S&P Global
+                <strong>S&P Global Ratings</strong>
               </a>{" "}
-              Ratings projects that the full implementation of these tariffs
-              could lead to a one-time increase of approximately 0.66% in U.S.
-              consumer prices
-            </li>
-            <li>
-              <strong>
-                Disruption of Critical Semiconductor Supply Chains:
-              </strong>{" "}
-              While specific percentages are not provided, the{" "}
+              projects that if these tariffs are fully implemented, they could
+              result in a one-time increase of approximately 0.66% in U.S.
+              consumer prices .
+            </p>
+
+            <p>
+              Beyond these economic impacts, trade restrictions also pose
+              significant risks to supply chains. The{" "}
               <a
                 target="_blank"
                 rel="noreferrer"
                 href="https://www.livemint.com/economy/us-tariffs-global-impact-oecd-economic-growth-forecast-us-tariffs-inflation-impact-global-trade-uncertainty-oecd-11742209161370.html"
               >
-                OCED
+                <strong>
+                  Organization for Economic Co-operation and Development (OECD)
+                </strong>
               </a>{" "}
-              warns that increased tariffs could significantly disrupt global
-              supply chains, including those for semiconductors, thereby
-              affecting industries reliant on these components.
-            </li>
-          </ul>
+              has highlighted concerns regarding the potential disruption of
+              critical semiconductor supply chains , which could severely affect
+              industries that depend on these essential components.
+            </p>
+          </div>
         </IntroText>
       </Section>
     </div>
