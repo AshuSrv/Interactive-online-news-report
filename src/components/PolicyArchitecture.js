@@ -25,7 +25,7 @@ const COLORS = ["#0088FE", "#00C49F", "#FFBB28", "#FF8042", "#AF19FF"];
 
 const PolicyArchitecture = () => {
   return (
-    <div>
+    <div id="analysis">
       <Section>
         <h2>Tariff Structure & Legal Basis</h2>
         <PolicyGrid>
@@ -78,34 +78,39 @@ const PolicyArchitecture = () => {
               , marking its first use for broad trade measures rather than
               direct national security threats.
             </p>
-            <strong>Key provisions:</strong>
-            <ul>
-              <li>
-                <span class="subheading">
+            <div>
+              <p>
+                <strong>Key provisions:</strong>
+              </p>
+
+              <p>
+                <span className="subheading">
                   Presidential authority during "unusual and extraordinary
-                  threats":{" "}
+                  threats":
                 </span>
                 IEEPA grants the President authority to declare a national
                 emergency in response to unusual and extraordinary threats from
                 outside the United States, enabling regulation of international
                 economic transactions.
-              </li>
-              <li>
-                <span class="subheading">
-                  Bypasses Congressional approval requirements:{" "}
+              </p>
+
+              <p>
+                <span className="subheading">
+                  Bypasses Congressional approval requirements:
                 </span>
                 While the President can act without immediate Congressional
                 approval during such emergencies, Congress retains the power to
                 terminate the national emergency through a joint resolution.
-              </li>
-              <li>
-                <span class="subheading">
-                  30-day Congressional notification mandate:{" "}
+              </p>
+
+              <p>
+                <span className="subheading">
+                  30-day Congressional notification mandate:
                 </span>
                 The President must inform Congress within 30 days of exercising
                 emergency powers under IEEPA.
-              </li>
-            </ul>
+              </p>
+            </div>
           </div>
 
           {/* Right Column */}
@@ -173,43 +178,11 @@ const PolicyArchitecture = () => {
               </Source>
             </ChartContainer>
 
-            {/* <ChartContainer>
-                <ResponsiveContainer width="100%" height={400}>
-                  <PieChart>
-                    <Pie
-                      data={tradeData}
-                      dataKey="tariff"
-                      nameKey="country"
-                      cx="50%"
-                      cy="50%"
-                      outerRadius={120}
-                      innerRadius={60}
-                      label={({ percent }) => `${(percent * 100).toFixed(0)}%`}
-                    >
-                      {tradeData.map((entry, index) => (
-                        <Cell
-                          key={`cell-${index}`}
-                          fill={COLORS[index % COLORS.length]}
-                        />
-                      ))}
-                    </Pie>
-                    <Tooltip formatter={(value) => `${value}% tariff rate`} />
-                    <Legend
-                      layout="vertical"
-                      align="right"
-                      verticalAlign="middle"
-                    />
-                  </PieChart>
-                </ResponsiveContainer>
-                <Source>
-                  U.S. Trade Representative Data | 2025 Projections
-                </Source>
-              </ChartContainer> */}
             <KeyPoints>
-              <h4>Critical Tariff Impacts Analysis:</h4>
+              <h4>Critical Tariff Impacts Analysis</h4>
               <ul>
                 <li>
-                  <strong>China's Disproportionate Burden (58%):</strong> The
+                  <strong>China's Disproportionate Burden (58%)</strong> The
                   cumulative tariff rate of 54% on Chinese imports, affecting
                   approximately $450 billion in annual trade. These tariffs
                   predominantly target sectors such as electronics, toys, steel,
@@ -220,7 +193,7 @@ const PolicyArchitecture = () => {
                 </li>
 
                 <li>
-                  <strong>EU's Agricultural Countermeasures:</strong> In
+                  <strong>EU's Agricultural Countermeasures</strong> In
                   retaliation to U.S. tariffs on steel and aluminum, the
                   European Union has proposed countermeasures targeting up to
                   $28 billion in U.S. imports. These retaliatory tariffs would
@@ -231,8 +204,8 @@ const PolicyArchitecture = () => {
                 </li>
 
                 <li>
-                  <strong>ASEAN's Strategic Dilemma (22% Surcharge):</strong>{" "}
-                  The tariffs ranging from 10% to 49% depending on the nation.
+                  <strong>ASEAN's Strategic Dilemma (22% Surcharge)</strong> The
+                  tariffs ranging from 10% to 49% depending on the nation.
                   Vietnam faces a 46% tariff, potentially affecting $37.5
                   billion in exports, about 2% of its GDP. These tariffs are
                   expected to disrupt trade, particularly in sectors like
