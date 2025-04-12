@@ -6,9 +6,10 @@ export const tradeData = [
 ];
 
 export const marketData = [
-  { date: "Apr 4", dow: 0, nasdaq: 0 },
-  { date: "Apr 5", dow: -4.2, nasdaq: -6.1 },
-  { date: "Apr 6", dow: -2.5, nasdaq: -3.8 },
+  { date: "Apr 2", dow: 0.56, nasdaq: 0.87 },
+  { date: "Apr 3", dow: -3.98, nasdaq: -5.97 },
+  { date: "Apr 4", dow: -5.5, nasdaq: -5.8 },
+  { date: "Apr 7", dow: -0.9, nasdaq: 0.1 },
 ];
 
 export const countries = [
@@ -56,8 +57,8 @@ export const scenarioData = [
 
 // GDP Data
 export const gdpData = [
-  { country: "USA", gdpChange: -0.4 },
-  { country: "China", gdpChange: 2.1 },
+  { country: "USA", forecastedGDP: 1.7 },
+  { country: "China", forecastedGDP: 5 },
 ];
 
 // Employment Data
