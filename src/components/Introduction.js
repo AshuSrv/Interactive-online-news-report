@@ -31,7 +31,8 @@ const Introduction = () => {
           existing trade deficits. Notably, Chinese goods faced an additional
           44% tariff, bringing the total to 54%. These measures were justified
           by the administration as necessary to counteract unfair trade
-          practices by trading partners. ​
+          practices by trading partners. ​ Subsequent increases have raised the
+          effective tariff rate on Chinese imports to 145%.
         </IntroText>
 
         <MediaSection>
@@ -49,21 +50,23 @@ const Introduction = () => {
 
         <IntroText>
           The announcement led to immediate and significant global economic
-          repercussions. China responded by imposing a 34% tariff on all U.S.
-          imports, mirroring the U.S. action and escalating tensions between the
-          two economic giants. Additionally, China implemented export controls
-          on critical rare earth elements essential for high-tech industries and
-          national defense, and suspended imports from certain U.S. poultry
-          firms due to health concerns. The Chinese government criticized the
-          U.S. actions as unilateral and in violation of World Trade
-          Organization (WTO) rules, accusing the U.S. of destabilizing global
-          economic conditions:
+          repercussions. ​ In retaliation, China imposed tariffs of up to 125%
+          on U.S. goods and restricted exports of critical rare earth minerals.
+          These measures have disrupted global trade, with major U.S. retailers
+          like Walmart and Target expressing concerns over increased costs and
+          potential price hikes for consumers. Additionally, China implemented
+          export controls on critical rare earth elements essential for
+          high-tech industries and national defense, and suspended imports from
+          certain U.S. poultry firms due to health concerns. The Chinese
+          government criticized the U.S. actions as unilateral and in violation
+          of World Trade Organization (WTO) rules, accusing the U.S. of
+          destabilizing global economic conditions:
           <AnalysisGrid>
             <AnalysisItem>
               📉 More than $2.8T Market Value Wiped in 72 Hours
             </AnalysisItem>
             <AnalysisItem>
-              ⚖️ 54% Combined Tariff Rate on Chinese Goods
+              ⚖️ 145% Combined Tariff Rate on Chinese Goods
             </AnalysisItem>
             <AnalysisItem>
               🌍 Analysts Warn of a 60% Chance of Global Recession
