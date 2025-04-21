@@ -29,10 +29,10 @@ const Introduction = () => {
           all imports into the United States, with higher "reciprocal" tariffs
           ranging from 11% to 50% applied to specific countries based on
           existing trade deficits. Notably, Chinese goods faced an additional
-          44% tariff, bringing the total to 54%. These measures were justified
-          by the administration as necessary to counteract unfair trade
-          practices by trading partners. ​ Subsequent increases have raised the
-          effective tariff rate on Chinese imports to 145%.
+          44% tariff, bringing the total to 54%. Subsequent increases have
+          raised the effective tariff rate on Chinese imports to 145%. These
+          measures were justified by the administration as necessary to
+          counteract unfair trade practices by trading partners. ​
         </IntroText>
 
         <MediaSection>
