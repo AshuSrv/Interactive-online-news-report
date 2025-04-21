@@ -5,6 +5,7 @@ import {
   IndustryGrid,
   IndustrySection,
   ExpertQuote,
+  Source,
 } from "../assets/styles";
 
 const IndustryImpact = () => {
@@ -43,12 +44,24 @@ const IndustryImpact = () => {
             </div>
             <img src="/images/factory.png" alt="Auto factory shutdown" />
           </IndustryGrid>
+          <Source
+            style={{ textAlign: "right", marginRight: 10, marginTop: -50 }}
+          >
+            Source:{" "}
+            <a
+              href="https://www.youtube.com/watch?v=-55tvMsGTNk"
+              target="_blank"
+              rel="noreferrer"
+            >
+              FirstPost
+            </a>
+          </Source>
         </IndustrySection>
 
         <IndustrySection>
           <h3>Consumer Electronics Collapse</h3>
           <IndustryGrid>
-            <img src="/images/apple.png" alt="Empty Apple Store" />
+            <img src="/images/apple.png" alt="Surge in Iphone Prices" />
             <div>
               <p>
                 ​The projected price increases for Apple's upcoming products,
@@ -76,6 +89,16 @@ const IndustryImpact = () => {
                 <cite>- Young Liu, Chairman of Foxconn</cite>
               </ExpertQuote>
             </div>
+            <Source style={{ textAlign: "left", marginLeft: 10 }}>
+              Source:{" "}
+              <a
+                href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fvocal.media%2Feducation%2F2-150-for-an-i-phone-trump-tariffs-are-category-5-price-storm&psig=AOvVaw3fFB7kSLx2soypuoOpLZ5T&ust=1744751179387000&source=images&cd=vfe&opi=89978449&ved=0CBgQjhxqFwoTCPjvreS22IwDFQAAAAAdAAAAABBO"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Vocal Media
+              </a>
+            </Source>
           </IndustryGrid>
         </IndustrySection>
         <IndustrySection>
