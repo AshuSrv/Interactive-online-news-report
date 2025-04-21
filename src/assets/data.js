@@ -1,5 +1,5 @@
 export const tradeData = [
-  { country: "China", tariff: 54, deficit: 295.4 },
+  { country: "China", tariff: 145, deficit: 295.4 },
   { country: "European Union", tariff: 20, deficit: 40.1 },
   { country: "Japan", tariff: 24, deficit: 71.2 },
   { country: "Mexico", tariff: 10, deficit: 152 },
