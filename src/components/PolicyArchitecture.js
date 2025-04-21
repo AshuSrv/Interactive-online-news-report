@@ -42,9 +42,10 @@ const PolicyArchitecture = () => {
               </li>
               <li>
                 <strong>Reciprocal Surcharges (11-50%):</strong> Surcharges are
-                determined based on trade balances from 2024. China faces a
-                maximum surcharge of 34% in addition to the baseline tariff,
-                resulting in a combined tariff rate of 54% on Chinese imports.​
+                determined based on trade balances from 2024.China faces a
+                maximum surcharge of 135% in addition to the baseline tariff,
+                resulting in a combined tariff rate of 145% on Chinese imports.
+                ​
               </li>
               <li>
                 <strong>Strategic Penalties (25%):</strong> The policy imposes
@@ -182,14 +183,15 @@ const PolicyArchitecture = () => {
               <h4>Critical Tariff Impacts Analysis</h4>
               <ul>
                 <li>
-                  <strong>China's Disproportionate Burden (58%)</strong> The
-                  cumulative tariff rate of 54% on Chinese imports, affecting
-                  approximately $450 billion in annual trade. These tariffs
-                  predominantly target sectors such as electronics, toys, steel,
-                  machinery, and footwear. ​ These measures are part of the U.S.
-                  administration's strategy to address trade imbalances and are
-                  expected to have significant implications for the specified
-                  sectors.​
+                  <strong>China's Escalating Tariff Pressure (145%)</strong>
+                  ​As of April 21, 2025, the United States has imposed a
+                  cumulative tariff rate of 145% on Chinese imports,
+                  significantly impacting approximately $450 billion in annual
+                  trade. These tariffs predominantly target sectors such as
+                  electronics, toys, steel, machinery, and footwear. The
+                  measures are part of the U.S. administration's strategy to
+                  address trade imbalances and are expected to have significant
+                  implications for the specified sectors.
                 </li>
 
                 <li>
